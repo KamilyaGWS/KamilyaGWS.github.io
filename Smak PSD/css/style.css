@@ -1,0 +1,490 @@
+img {
+	max-width: 100%;
+	height: auto;
+	
+}
+body {
+	font-family: 'Oswald';
+	font-size: 16px;
+	font-weight: 300;
+	color: #707070;
+}
+h3 {
+	font-weight: 700;
+	color: #000000;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+h5 {
+	font-weight: 400;
+	font-size: 16px;
+	color: #515151;
+	text-transform: uppercase;
+}
+hr {
+	background: #ffe600;
+	width: 170px;
+	height: 3px;
+}
+.header {
+	background: url(../img/howwedobg.jpg) center center;
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+.menu-top .nav-link{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #ffffff !important;
+	font-weight: 700;
+}
+.menu-top .nav-link::after {
+	content:'';
+	display: block;
+	height: 3px;
+	background: #ffe600;
+	width: 0;
+	transition: 1s;
+	margin: auto;
+}
+.menu-top .nav-link:hover::after {
+	width: 100%;
+}
+.menu-top .nav-link:hover {
+	color: #ffe600 !important;
+}
+.menu-top {
+	background: rgba(19, 19, 22, .3);
+}
+.menu-top .nav-item {
+	list-style: square;
+	color: #ffe600;
+}
+.menu-top .nav-item {
+	margin: 0 12px;
+}
+.menu-top .nav-item:first-child{
+	list-style: none;
+}
+.title {
+	text-transform: uppercase;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+.title h1 {
+	font-size: 65px;
+	color: #ffffff;
+	font-weight: 700;
+}
+.title .btn {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #ffe600;
+	padding: 12px 50px;
+	border-radius: 0;
+}
+.service {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.service .circle {
+	margin: auto;
+	width: 105px;
+	height: 105px;
+	background: #ffe600;
+	border-radius: 50%;
+	color: #ffffff;
+	border: 1px solid transparent;
+}
+.service .circle .fa {
+	font-size: 30px;
+	line-height: 105px;
+}
+.service .circle:hover {
+	background: #ffffff;
+	color: #ffe600;
+	border: 1px solid #000000;
+}
+.options {
+	padding: 65px 0 75px;
+	background: url(../img/howwedobg.jpg) center center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;	
+}
+.options img {
+	transition: 500ms;
+}
+.options img:hover {
+	transform: rotate(360deg)
+}
+.options h4 {
+	text-transform: uppercase;
+}
+.works {
+	padding: 65px 0 60px;
+}
+.works .nav {
+	justify-content: center;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+.works .nav .nav-link {
+	font-size: 16px;
+	color: #515151;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.works .nav .nav-link::after{
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	background: #ffe600;
+	transform: translate(15px,-5px);
+}
+.works .nav .last::after {
+	content: '';
+	display: none;
+}
+.works .nav .nav-link:hover {
+	color: #ffe600;
+}
+.works .tab-pane .row {
+	align-items: center;
+}
+.works .btn {
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	background: #ffe600;
+	width: 170px;
+	height: 60px;
+	border-radius: 0%;
+}
+.portfolio .do-you-like .fa {
+	background: #ffe600;
+	color: #ffffff;
+	height: 60px;
+	width: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	margin-top: 25px;
+}
+.portfolio .do-you-like .btn {
+	width: 170px;
+	height: 60px;
+	background: #ffe600;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700;
+	margin-top: 44px;
+}
+.portfolio .do-you-like h3 {
+	margin-top: 60px;
+	margin-bottom: 25px;
+}
+.proud {
+	background: url(../img/howwedobg.jpg) center center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #ffffff;
+	margin-top: 65px;
+	padding: 65px 0;
+}
+.proud h3,.proud h4,.proud h5,.proud p {
+	text-align: center;
+}
+.proud h4 {
+	font-size: 16px;
+	color: #ffe600;
+	text-transform: uppercase;
+}
+.proud h3 {
+	color: #ffffff;
+}
+.proud .numbers {
+	height: 140px;
+	width: 267px;
+	border: 1px solid #ffe600;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.who-we-are .who {
+	margin-top: 65px;
+	margin-bottom: 100px;
+}
+.who-we-are .about-us {
+	padding-bottom: 65px;
+}
+.who-we-are .about-us .text {
+	padding-left: 30px;
+	padding-right: 40px;
+}
+.who-we-are .about-us img {
+	width: 71px;
+	height: 71px;
+	margin: auto;
+}
+.team {
+	margin-top: 53px;
+	justify-content: space-around;
+}
+.team h4, .team h5 {
+	text-align: center;
+}
+.team .team-members {
+	border-bottom: 2px solid #e1e6e6;
+}
+.team .team-members img {
+	margin-top: 44px;
+	margin-bottom: 15px;
+	width: 250px;
+	height: 250px;
+}
+.team .team-members h4 {
+	color: #ffe600;
+	font-size: 20px;
+}
+
+.team .team-members h5 {
+	color: #515151;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.john {
+	background: #131316;
+	padding-top: 65px;
+	padding-bottom: 40px;
+}
+.john h4 {
+	margin-bottom: 25px;
+	font-size: 20px;
+	color: #ffe600;
+}
+.john p {
+	color: #ffffff;
+}
+.john img{
+	padding-right: 24px;
+}
+
+.john-doe {
+	margin: auto;	
+}
+.skills {
+	background-color: #131a1d;
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.skills h3 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+}
+.skills p {
+	color: #ffffff;
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+.skills .circle {
+	margin: auto;
+	width: 105px;
+	height: 105px;
+	border-radius: 50%;
+	color: #ffffff;
+	border: 3px solid #ffffff;
+}
+.skills h4 {
+	font-size: 20px;
+	color: #ffe600;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.skills .circle h4 {
+	font-size: 35px;
+	font-weight: 200;
+	line-height: 100px;
+	text-align: center;
+	margin-top: 0;
+}
+.partners {
+	margin-top: 63px;
+	margin-bottom: 165px;
+}
+.partners .clients {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.quote {
+	background: url(../img/slider_2.jpg) center center;
+	background-size: cover;
+	height: 300px;
+	position: relative;
+}
+.quote .carousel-item {
+	height: 300px;
+}
+.quote .carousel-caption {
+	position: absolute;
+	bottom: 25px;
+}
+.quote .carousel-caption h5 {
+	color: #ffffff;
+	font-size: 20px;
+	text-transform: unset;
+}
+.quote .carousel-caption p {
+	font-size: 16px;
+}
+.find {
+	margin: 62px 0;
+}
+.find .contact {
+	margin-top: 70px;
+}
+.find .contact h4 {
+	margin-top: 25px;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+.find .contact h5 {
+	margin-top: 28px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.forma {
+	background: #131a1d;
+}
+
+.forma .message {
+	margin-bottom: 60px;
+	margin-top: 65px;
+}
+
+.forma .message h3 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+}
+.forma .message p {
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 200;
+}
+.forma .form-control {
+	background-color:transparent;
+	font-family: 'Oswald';
+	font-size: 15px;
+	font-weight: 200;
+}
+.forma .form-control::placeholder {
+	color: #ffffff;
+}
+
+.forma .btn {
+	margin-top: 27px;
+	width: 204px;
+	height: 58px;
+	background: #ffe600;
+	border-radius: 0%;
+	font-size: 15px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #161f32;
+	margin-bottom: 54px;
+}
+.footer {
+	background: #131316;
+}
+.footer p {
+	margin-top: 22px;
+	color: #ffffff;
+}
+
+.footer p span {
+	color: #ffe600;
+}
+.footer img {
+	padding: 10px;
+}
+.footer .fa {
+	background: #ffe600;
+	color: #ffffff;
+	height: 60px;
+	width: 60px;
+	font-size: 30px;
+	line-height: 60px;
+	margin-top: 25px;
+	text-align: center;
+}
+@media (max-width:991px) {
+	.menu-top .nav-item:first-child {
+		list-style: square;
+	}
+	.menu-top .nav-link::after {
+		margin: 0;
+	}
+	.menu-top.nav-link:hover::after {
+		width: 10%;
+	}
+	.title {
+		top: 63%;
+	}
+	.title h1 {
+		font-size: 45px;
+	}
+	.team .team-members img {
+		display: block;
+		margin: 30px auto;
+	}
+	.skills .circle {
+		margin-top: 40px;
+	}
+	.forma .form-control {
+		margin-top: 30px;
+	}
+	
+	.works .btn {
+		justify-content: center;
+		display: flex;
+		margin: auto;
+	}
+	.proud .numbers {
+		margin: 15px auto;
+	}
+}
+@media (max-width:767px) {
+	.title {
+		top: 63%;
+	}
+	.title h1 {
+		font-size: 45px;
+	}
+	.title .btn {
+		font-size: 15px;
+		padding: 8px 30px; 
+	}
+
+}
+@media (max-width:500px) {
+	.title h1 {
+		font-size: 30px;
+	}
+	.title .btn {
+		font-size: 10px;
+		padding: 7px 20px; 
+	}
+}
